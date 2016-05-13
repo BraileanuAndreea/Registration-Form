@@ -1,0 +1,48 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<h1>registration form</h1>
+		<form>
+			<input type="text" placeholder="alphanumeric"> username<br>
+			<input type="password" placeholder="something secret"> password
+		</form>
+		<form>
+			<fieldset>
+				<legend>Location Data</legend>
+				Country 
+				<select name="Selection">
+					<optgroup label="---" disabled>
+						
+					</optgroup>
+					<optgroup style="font-style:normal"label="Other" disabled>
+						<option value="1" selected>Elbonia</option>
+					</optgroup>
+					<optgroup style="font-style:normal"label="Europe">
+						<option value="2">Romania</option>
+					</optgroup>
+					<optgroup style="font-style:normal"label="Asia">
+						<option value="4">India</option>
+						<option value="3">China</option>
+					</optgroup>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>Personal Data</legend>
+				<strong>gender</strong>
+				<br>
+				<input type="radio" name="gender"> male <br>
+				<input type="radio" name="gender"> female <br>
+				<strong>interests</strong><br>
+				<select size=4 multiple title="Press Ctrl to select more">
+					<option value="books" selected>Books</option>
+					<option value="music">Music</option>
+					<option value="technologies">Technology</option>
+					<option value="sailing">Sailing</option>
+					<option value="movies">Movies</option>
+					<option value="songs">Songs</option>
+				</select>
+			</fieldset>
+		</form>
+	</body>
+</html>
